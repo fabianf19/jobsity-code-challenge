@@ -1,0 +1,116 @@
+@import '../../assets/scss/variables.scss';
+
+.calendar-root{
+	.calendar{
+		margin-top: 80px;
+		margin-bottom: 80px;
+
+		.day{
+			height: 100px;
+			max-width: 110px;
+
+			&__is-grayed{
+				color: #afafaf;
+			}
+
+			&__is-today{
+				color: #3298dc;
+				font-weight: 800;
+			}
+
+			&__header{
+				display: flex;
+				div{
+					margin-right: auto;
+				}
+
+				.button-trash{
+					display: none;
+					padding: 0px;
+					height: 24px;
+
+					span{
+						margin-left: 0px;
+    					margin-right: 0px;
+					}
+				}
+			}
+
+			&:hover{
+				.button-trash{
+					display: inline-flex;;
+				}
+			}
+
+			&__reminders{
+				max-height: 80px;
+				overflow: scroll;
+				max-width: 150px;
+
+				.reminder{
+					cursor: pointer;
+
+					&__header{
+						display: flex;
+						align-items: flex-start;
+
+						.reminder-ball{
+							min-width: 15px;
+							min-height: 15px;
+							max-height: 15px;
+							border-radius: 50%;
+							margin-top: 2px;
+							margin-right: 3px;
+						}
+
+						.reminder-content{
+							display: flex;
+							.time{
+								font-size: 12px;
+							}
+						}
+
+						.icon{
+							margin-top: -3px;
+							margin-left: auto;
+						}
+					}	
+
+					p{
+						font-size: 12px;
+					}	
+
+					&:hover{
+						background-color: #efefef;
+					}			
+				}
+			}
+		}
+
+		.calendar-actions{
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			margin-bottom: 5px;
+
+			h2{
+				margin-right: auto;
+			}
+
+			.button{
+				margin: 5px;
+
+				&__right{
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
+	.reminder-panel{
+		.subtitle{
+			margin-bottom: 15px;
+			margin-top: 15px;
+		}
+	}
+}

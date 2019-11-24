@@ -1,0 +1,21 @@
+Mandatory Features
+	● [DONE] Ability to add a new "reminder" (max 30 chars) for a user entered day and time. Also, include a city.
+	● [DONE] Display reminders on the calendar view in the correct time order.
+	● [DONE] Allow the user to select color when creating a reminder and display it appropriately.
+	● [DONE] Ability to edit reminders – including changing text, city, day, time and color.
+	● Add a weather service call from a free API such as ​Open Weather Map​, and get the
+	weather forecast (ex. Rain) for the date of the calendar reminder based on the city.
+	● [DONE] Unit test the functionality: ​Ability to add a new "reminder" (max 30 chars) for a user entered day and time. Also, include a city.
+
+Bonus (Optional)
+	● [DONE] Expand the calendar to support more than the current month. 								
+	● [DONE] Properly handle overflow when multiple reminders appear on the same date.
+	● [DONE] Functionality to delete one or ALL the reminders for a specific day
+
+Considerations
+	● Redux (or any other state manager) structure of the calendar.
+	● The project is totally focused on the front-end; please ignore the back-end.
+	● Keep your code versioned with Git.
+	● Feel free to use small helper libraries for:
+	○ UI Elements.
+	○ Date/Time handling.
