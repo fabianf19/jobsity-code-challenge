@@ -1,5 +1,7 @@
 This is the Jobsity calendar code challenge done by: Fabian Fuenmayor
 
+![alt text](https://raw.githubusercontent.com/fabianf19/jobsity-code-challenge/src/assets/images/jobsity-challenge.png)
+
 All tasks plus bonus tasks were completed
 
 ## Bonus Tasks Completed
